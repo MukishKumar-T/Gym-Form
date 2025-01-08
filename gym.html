@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Membership Registration</title>
+    <link rel="stylesheet" href="gStyle.css">
+</head>
+<body style="background-image: url();">
+    <header>
+        <div>
+            <h2>GYM MEMBERSHIP REGISTRATION</h2>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Gym Membership Form</h1>
+        <form>
+            <label for="fullName">Full Name:</label>
+            <input type="text" placeholder="Enter Your Name" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter Your Email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" placeholder="Enter Your Mobile No." id="phone" name="phone" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="membership">Membership Type:</label>
+            <select id="membership" name="membership" required>
+                <option value="basic">Basic</option>
+                <option value="standard">Standard</option>
+                <option value="premium">Premium</option>
+            </select>
+
+            <label for="fitnessGoals">Fitness Goals:</label>
+            <select id="fitnessGoals" name="fitnessGoals" required>
+                <option value="weightLoss">Weight Loss</option> 
+                <option value="muscleGain">Muscle Gain</option> 
+                <option value="endurance">Endurance</option> 
+                <option value="flexibility">Flexibility</option> 
+            </select> 
+            <label for="workoutTimes">Preferred Workout Times:</label> 
+            <select id="workoutTimes" name="workoutTimes" required> 
+                <option value="morning">Morning</option> 
+                <option value="evening">Evening</option>
+            </select> 
+            <label for="fitnessLevel">Current Fitness Level:</label> 
+            <select id="fitnessLevel" name="fitnessLevel" required> 
+                <option value="beginner">Beginner</option> 
+                <option value="intermediate">Intermediate</option> 
+                <option value="advanced">Advanced</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
